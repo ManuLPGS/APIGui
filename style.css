@@ -1,0 +1,186 @@
+* {
+  box-sizing: content-box !important;
+}
+
+.ApiContainer {
+  font-family: "Poppins";
+}
+
+.searchContainer input {
+  font-family: "Poppins";
+  border-radius: 5px;
+  outline: none;
+  border: lightgray 1px solid;
+}
+
+.searchContainer input::placeholder{
+  font-family: "Poppins";
+  opacity: .3;
+}
+
+input:focus,
+input:active,
+input:focus-visible {
+  outline: none;
+}
+
+input:focus-visible {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.searchContainer {
+  margin-top: 1em;
+}
+
+.searchInner {
+  gap: 1em;
+  font-size: 2em;
+}
+
+.p-img img {
+  width: 300px;
+}
+
+.p-description {
+  display: -webkit-box;
+  max-width: 90%;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.p-info {
+  margin-left: 1.5em;
+  line-height: 1.5;
+}
+
+.p-subline {
+  color: #999;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+.platform {
+  font-weight: 500;
+}
+
+.publisher {
+  color: rgb(54, 54, 252);
+}
+
+.genre {
+  color: #333;
+}
+
+.price {
+  color: #333;
+  font-size: 2em;
+}
+
+.p-headline {
+  font-weight: 900;
+  width: 100%;
+}
+
+h4.p-headline {
+  font-weight: 200;
+  ;
+}
+
+.p-headline a {
+  text-decoration: none;
+  color: #333;
+}
+
+.p-headline h3 {
+  margin-top: 1.5em;
+  font-size: 60%;
+  font-weight: 500;
+}
+
+.p-variants {
+  margin-top: 1.5em;
+  display: flex;
+  gap: 1em;
+}
+
+.p-variant h3 {
+  font-weight: 600;
+}
+
+.p-variants a {
+  text-decoration: none;
+  color: #333;
+}
+
+.p-variants .p-variant {
+  max-width: 250px;
+  border: 1px solid #999;
+  transition: all linear 0.3s;
+  border-radius: 5px;
+  line-height: 1.2;
+  flex: 1;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.p-variants .p-variant:hover {
+  border-color: red;
+}
+
+.presell {
+  background-color: #999;
+  color: #fff;
+  border-radius: 30px;
+  padding: .5em .1em;
+}
+
+.p-screenshot {
+  width: 100%;
+  flex-basis: 100%;
+  margin: 2em 0 1em 0;
+  width: 100%;
+}
+
+.p-screenshot ul {
+  overflow-x: scroll;
+  display: flex;
+  gap: .3em;
+  padding-left: 0rem;
+}
+
+.p-screenshot ul img {
+  height: 80px;
+  width: auto;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* width */
+.p-screenshot ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.p-screenshot ul::-webkit-scrollbar-track {
+  background: #fafafa;
+  margin-right: 1em;
+  width: 12px;
+  border-radius: 30px;
+}
+
+/* Handle */
+.p-screenshot ul::-webkit-scrollbar-thumb {
+  background: #8888887d;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+
+/* Handle on hover */
+.p-screenshot ul::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+p {
+  margin: 0;
+}
