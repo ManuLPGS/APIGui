@@ -50,7 +50,7 @@ searchBar.addEventListener("keydown", function (event) {
 });
 
 async function fetch_product(sku) {
-  return await $.get("/api2/product/getproductsbysku?skus=" + sku);
+  return await $.get("https://www.gamestop.it/api2/product/getproductsbysku?skus=" + sku);
 }
 
 function searchBarControl(value) {

@@ -2,6 +2,10 @@
   box-sizing: content-box !important;
 }
 
+body {
+  max-width: 80vw
+};
+
 .ApiContainer {
   font-family: "Poppins";
 }
@@ -13,7 +17,7 @@
   border: lightgray 1px solid;
 }
 
-.searchContainer input::placeholder{
+.searchContainer input::placeholder {
   font-family: "Poppins";
   opacity: .3;
 }
